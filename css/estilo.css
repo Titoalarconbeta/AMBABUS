@@ -1,22 +1,14 @@
-*{
-  margin:0;
-  padding:0;
+
+
+body {
+    background-color: aqua;
+  font-family: 'Shrikhand', cursive;
+font-family: 'Playfair Display', serif;
 }
-body{
-  background-color: teal;
-  color: white;
-}
-li{
-   list-style-type: none;
-}
-.panel{
+.viajes{
+background-color: lightblue;
+  width: 45%;
   display: inline-block;
-  border-radius: 10px;
-  padding: 10px;
-  background-color: seagreen;
+  
 }
-iframe{
-  width: 99%;
-  height: 200px;
-  resize: both;
-}
+
