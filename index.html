@@ -6,40 +6,9 @@
     <!-- script src="js/escript.js" defer="" ></script-->
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display|Shrikhand" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    
-  </head>  
-  <body>
-    <!DOCTYPE html>
-<html>
-<head>
-<style>
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-}
 
-li {
-    float: left;
-}
-
-li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-li a:hover {
-    background-color: #111;
-}
-</style>
-</head>
+  </head>
 <body>
-
 <ul>
   <li><a class="active" href="#home">INICIO</a></li>
   <li><a href="#Mapa">Mapa</a></li>
@@ -49,22 +18,20 @@ li a:hover {
   <li><a href="#about">SALIR</a></li>
 </ul>
 
-</body>
-</html>
-
     
-    <h1 >╚>════════════════════════╣╠ AMBABUS ╣╠═════════════════════════════<╝</h1>
+    <h1 >╚>════════════════════════╣╠ AMBABUS ╣╠═══════════════════════════<╝</h1>
     
     <h1>►Servicio de Transporte Argentino <i class="fa fa-bus"></i>
 <i class="fa fa-train"></i>
 <i class="fa fa-subway"></i>
 <i class="fa fa-taxi"></i>
 ◄</h1>
+      
  
 <div class="viajes">    
     
 
-  <h2>Transporte de Colectivos.</h2>
+  <h2>Colectivos.</h2>
 
   <p>.Ciudad Autónoma de Buenos aires: $9</p>
   <p>.Gran Buenos Aires: $12 </p>
@@ -72,7 +39,7 @@ li a:hover {
 
 
 <div class="viajes">    
-  <h2>Transporte de Trenes.</h2>
+  <h2>Trenes.</h2>
 
   <p>.Ciudad Autónoma de Buenos aires: $7</p>
   <p>.Gran Buenos Aires: $7 </p>
@@ -81,7 +48,7 @@ li a:hover {
     <div class="viajes">    
     
 
-  <h2>Transporte de Subtes.</h2>
+  <h2>Subtes.</h2>
 
   <p>.Ciudad Autónoma de Buenos aires: $7.50</p>
   <p>.Gran Buenos Aires: $-- </p>
@@ -89,33 +56,48 @@ li a:hover {
     <div class="viajes">    
     
 
-  <h2>Transporte de Taxi.</h2>
+  <h2>Taxi.</h2>
 
   <p>.Ciudad Autónoma de Buenos aires: $34.50</p>
   <p>.Gran Buenos Aires: $10 p/km</p>
 </div>
       
     <h1>
-      ►Servicios. 
+  ►¿Dónde quieres ir?
       </h1>
 <table id="customers">
-<h1><th>►¿Dónde quieres ir?◄</th></h1>
+  <h1><th><div>
+  <form action="">
+    <label for="fname">Ingrese la calle que desea ir:</label>
+    <input type="text" id="fname" name="firstname" placeholder="Lugar..">
+      <label for="fname">Número:</label>
+    <input type="text" id="fname" name="firstname" placeholder="Altura..">
+
+    <label for="lname">Medio de transporte:</label>
+    <input type="text" id="lname" name="lastname" placeholder="Transporte..">
+  
+    <input type="submit" value="BUSCAR">
+  </form>
+</div></th></h1>
 
 </table>
 
 <header>
   <h2>AMBABUS</h2>
 </header>
-<footer>
-  <p>¡Gracias por tu Visita! </p>
-  <p>►Buen viaje, te desea AMBABUS◄</p>
-</footer>
-      
-    <p style="background-color: yellow;">►Tambien puedes usar el  <a href="http://comollego.ba.gob.ar/">COMO LLEGO</a> ≻▻Buenos Aires Ciudad◅≺
 
-    </p>
       
+<!--a href='https://www.freepik.es/vector-gratis/resumen-de-fondo-con-una-textura-de-la-acuarela_886474.htm'>Vector de Fondo creado por kjpargeter</a-->
       
+      <footer>
+        
+        
+  <p>¡Gracias por tu Visita! </p>
+        
+  <p>►Buen viaje◄</p>
+        
+        <p ><span class="amar">≻▻Buenos Aires Ciudad◅≺</span></p>     
+</footer>
     <!-- iframe src='https://offline2018.glitch.me'></iframe -->
     <!-- iframe src='https://offline2018.glitch.me'></iframe -->
     <!-- div class="glitchButton" style="position:fixed;top:20px;right:20px;"></div -->
