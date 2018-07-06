@@ -2,36 +2,40 @@
 /*FONDO*/
 body {
     /*background-color: aqua;*/
-  background-image: url("https://image.freepik.com/foto-gratis/fondo-de-textura-de-la-piscina_10323-238.jpg");
+  background-image: url("https://image.freepik.com/foto-gratis/uso-de-cemento-o-textura-de-hormigon-para-el-fondo_1205-2570.jpg");
   font-family: 'Shrikhand', cursive;
 font-family: 'Playfair Display', serif;
+   background-image: url("https://professor-falken.com/wp-content/uploads/2017/05/ciudad-rascacielos-edificios-skyline-arquitectura-luces-Fondos-de-Pantalla-HD-professor-falken.com_.jpg");
+    background-size: 145%;
 }
 /*CUADROS*/
 .viajes{
-background-color: lightblue;
+background-color: transparent;
   width: 20%;
   display: inline-block;
+  
 }
 #customers {
     font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
     border-collapse: collapse;
     width: 100%;
 }
-
+/*Donde queres ir*/
 #customers td, #customers th {
     border: 1px solid #ddd;
-    padding: 8px;
+    padding: 80px;
 }
 
 #customers tr:nth-child(even){background-color: #f2f2f2;}
 
-#customers tr:hover {background-color: #ddd;}
+#customers tr:hover {background-color:transparent;}
 
 #customers th {
-    padding-top: 12px;
-    padding-bottom: 12px;
+    padding-top: 1px;
+    padding-bottom: 1px;
     text-align: left;
-    background-color: turquoise;
+    background-color:transparent;
+  color:black;
 }
       body {
     font-family: Arial, Helvetica, sans-serif;
@@ -47,7 +51,8 @@ header {
     padding: 30px;
     text-align: center;
     font-size: 35px;
-    color: black;
+    color: AntiqueWhite;
+  
 }
 
 /* Create two columns/boxes that floats next to each other */
@@ -62,7 +67,7 @@ nav {
 /* Style the list inside the menu */
 nav ul {
     list-style-type: none;
-    padding: 0;
+    padding: 20px;
 }
 
 article {
@@ -84,7 +89,7 @@ section:after {
 footer {
     padding: 30px;
     text-align: center;
-    color: black;
+    color: AntiqueWhite;
 }
 
 /* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
@@ -102,7 +107,7 @@ p span {
 ul {
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding: 0.5px;
     overflow: hidden;
     background-color: #333;
 }
@@ -115,7 +120,7 @@ li a {
     display: block;
     color: white;
     text-align: center;
-    padding: 14px 16px;
+    padding: 15px 16px;
     text-decoration: none;
 }
 
@@ -126,6 +131,7 @@ li a:hover {
 /*Buenos aires ciudad*/
 .amar {
   background-color: yellow ;
+  color: black;
 }
 input[type=text], select {
     width: 100%;
@@ -156,4 +162,9 @@ div {
     border-radius: 5px;
     background-color: #f2f2f2;
     padding: 20px;
+}
+h1{
+  text-align: center;
+  text-shadow: 1px 1px lightblue;
+
 }
