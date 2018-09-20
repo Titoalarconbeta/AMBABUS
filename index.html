@@ -29,13 +29,13 @@
 
   <h2>►Colectivos.</h2>
 
-  <p>•Capital Federal:  $12</p>
+  <p>•Capital Federal:  $12.50</p>
 </div>
 
 
 <div class="viajes">    
   <h2>►Trenes.</h2>
-  <p>•Boleto:  $7</p>
+  <p>•Boleto:  $8</p>
 
 </div>
     <div class="viajes">    
@@ -43,7 +43,7 @@
 
   <h2>►Subtes.</h2>
 
-  <p>•Capital Federal: $12.50</p>
+  <p>•Capital Federal: $13.50</p>
 </div>
     <div class="viajes">    
     
@@ -56,37 +56,23 @@
     <h1>
   ►¿Dónde quieres ir?
       </h1>
-<table id="customers">
-  <h1><th><div>
-  <form action="">
-    <label for="fname">LUGAR DE PARTIDA:</label>
-    <label1 for="lname"><button onclick="getLocation()">◊Mi Ubicación</button></label1>
-<p id="demo"></p>
+  <div><form action="/action_page.php" style="
+    height: 294px;
+">
+    <label for="fname">►Desde:</label><label1 for="lname"><button onclick="getLocation()">◊Mi Ubicación</button></label1>
+    <input type="text" id="fname" name="firstname" placeholder="Ingrese la calle..">
+
+    <label for="lname">►Hasta:</label>
+    <input type="text" id="lname" name="lastname" placeholder="Ingrese la calle..">
+
+    <label for="country">►Medio de transporte</label>
     <select id="country" name="country">
-      <option value="Capital Federal">Seleccione....</option>
-      <option value="Capital Federal">Capital Federal</option>
-      <option value="canada">ZONA NORTE</option>
-      <option value="usa">ZONA OESTE</option>
-    <option value="ZONA ZUR">ZONA SUR</option>
-      <option value="ZONA ZUR">ZONA SUR</option>
-    </select>
-      <label for="fname">DESTINO:</label>
-     <select id="country" name="country">
-      <option value="Capital Federal">Seleccione....</option>
-      <option value="Capital Federal">Capital Federal</option>
-      <option value="canada">ZONA NORTE</option>
-      <option value="usa">ZONA OESTE</option>
-    <option value="ZONA ZUR">ZONA SUR</option>
-    </select>
-      
+      <option value="Colectivo">►Seleccione..</option>
+      <option value="Colectivo">Colectivo</option>
+      <option value="Tren">Tren</option>
+      <option value="Subte">Subte</option>
     </select>
     <input href="" type="submit" value="BUSCAR">
-  </form>
-</div></th></h1>
-
-</table>
-
-
 <header>
   <h2>AMBABUS<i class="fa fa-bus"></i></h2>
 </header>
@@ -101,12 +87,16 @@
         
   <p>►Buen viaje◄</p>
         
-        <p ><span class="amar">≻▻Buenos Aires Ciudad◅≺</span></p>     
+        <p><span class="amar">≻▻Buenos Aires Ciudad◅≺</span></p>     
 </footer>
     <!-- iframe src='https://offline2018.glitch.me'></iframe -->
     <!-- iframe src='https://offline2018.glitch.me'></iframe -->
     <!-- div class="glitchButton" style="position:fixed;top:20px;right:20px;"></div -->
     <!-- script src="https://button.glitch.me/button.js"></script -->
+  
+
+
+    </form>
   </body>
 </html>
 

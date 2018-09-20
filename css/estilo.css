@@ -21,29 +21,36 @@ background-color: transparent;
     width: 100%;
 }
 /*Donde queres ir*/
-#customers td, #customers th {
-    border: 1px solid #ddd;
-    padding: 80px;
-}
-
-#customers tr:nth-child(even){background-color: #f2f2f2;}
-
-#customers tr:hover {background-color:transparent;}
-
-#customers th {
-    padding-top: 1px;
-    padding-bottom: 1px;
-    text-align: left;
-    background-color:transparent;
-  color:black;
-}
-      body {
-    font-family: Arial, Helvetica, sans-serif;
-}
-* {
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
     box-sizing: border-box;
 }
 
+input[type=submit] {
+    width: 100%;
+    background-color: red;
+    color: red;
+    padding: 14px 0px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: green;
+}
+
+div {
+    border-radius: 5px;
+    background-color: red;
+    padding: 20px;
+}
 
 
 /* AMBA*/
@@ -160,11 +167,17 @@ input[type=submit]:hover {
 
 div {
     border-radius: 5px;
-    background-color: #f2f2f2;
-    padding: 20px;
+    background-color: aliceblue;
+    padding: 14px 20px;
+    margin: 8px 0px;
+    border: none;
+  
 }
 h1{
   text-align: center;
   text-shadow: 1px 1px lightblue;
 
+}
+label1{
+text-align:right;
 }
